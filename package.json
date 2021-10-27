@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-source-package",
+  "version": "1.0.0",
+  "description": "Gatsby source plugin to source contents of npm package.json",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel src --watch --out-dir .",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolossal-io/gatsby-source-package.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "npm"
+  ],
+  "author": "Marijan Barkic <marijan@kolossal.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  },
+  "bugs": {
+    "url": "https://github.com/kolossal-io/gatsby-source-package/issues"
+  },
+  "homepage": "https://github.com/kolossal-io/gatsby-source-package#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "lodash": "^4.17.21"
+  }
+}
