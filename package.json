@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gatsby source plugin to source contents of npm package.json",
   "main": "gatsby-node.js",
   "scripts": {
